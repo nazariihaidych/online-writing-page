@@ -122,11 +122,15 @@ a:hover {
   width: 20px;
   height: 2px;
   background: var(--text);
-  transition: transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s ease;
+}
+
+.hamburger span:nth-child(2) {
+  transition: opacity 0.12s ease 0.08s;
 }
 
 .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.hamburger.open span:nth-child(2) { opacity: 0; }
+.hamburger.open span:nth-child(2) { opacity: 0; transition: opacity 0.1s ease; }
 .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 .site-nav a {
@@ -880,6 +884,10 @@ mark {
 
   .story-grid {
     grid-template-columns: 1fr;
+  }
+
+  .media-grid {
+    grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
   }
 
   /* About: unstack the float on mobile */
