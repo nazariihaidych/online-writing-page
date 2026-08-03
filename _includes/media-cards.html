@@ -1,0 +1,49 @@
+{% assign sections = include.data | map: "section" | uniq %}
+{% assign section_count = sections | size %}
+{% for section in sections %}
+  {% assign items = include.data | where: "section", section %}
+  {% if section_count > 1 %}
+  <h2 class="media-section-heading">{{ section }}</h2>
+  {% endif %}
+  {% if items[0].note %}<p class="media-section-note">{{ items[0].note }}</p>{% endif %}
+  <div class="media-grid">
+    {% for item in items %}
+    <a href="{{ item.url }}" class="media-card" target="_blank" rel="noopener">
+
+      <div class="media-thumb {{ item.aspect | default: 'square' }}">
+        {% if item.thumbnail and item.thumbnail != "" %}
+          <img src="{{ item.thumbnail }}" alt="{{ item.title | escape }}" loading="lazy" referrerpolicy="no-referrer">
+        {% else %}
+          <div class="media-thumb-empty"></div>
+        {% endif %}
+
+        <div class="media-badge platform-{{ item.platform }}">
+          {% if item.platform == "spotify" %}
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.65 14.65c-.2.3-.55.4-.85.2-2.3-1.4-5.2-1.72-8.6-.94-.33.08-.65-.12-.73-.45-.08-.33.12-.65.45-.73 3.73-.85 6.93-.49 9.52 1.09.32.2.4.55.21.83zm1.24-2.76c-.24.38-.76.5-1.14.26-2.63-1.62-6.63-2.09-9.74-1.14-.4.12-.82-.1-.94-.5-.12-.4.1-.82.5-.94 3.55-1.08 7.97-.55 11 1.3.38.23.5.75.32 1.02zm.11-2.87C15.14 9.14 9.9 8.96 6.93 9.86c-.48.14-.98-.13-1.12-.61-.14-.48.13-.98.61-1.12 3.43-1.04 9.13-.84 12.73 1.37.44.26.58.83.32 1.27-.26.44-.83.58-1.27.32z"/></svg>
+          {% elsif item.platform == "youtube" %}
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="white"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.54 3.5 12 3.5 12 3.5s-7.54 0-9.38.55A3.02 3.02 0 0 0 .5 6.19C0 8.04 0 12 0 12s0 3.96.5 5.81a3.02 3.02 0 0 0 2.12 2.14C4.46 20.5 12 20.5 12 20.5s7.54 0 9.38-.55a3.02 3.02 0 0 0 2.12-2.14C24 15.96 24 12 24 12s0-3.96-.5-5.81zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/></svg>
+          {% elsif item.platform == "imdb" %}
+            <span class="media-badge-text">IMDb</span>
+          {% elsif item.platform == "goodreads" %}
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9V7h2v10zm4 0h-2V7h2v10z"/><path d="M4 6h4v2H4zm12 0h4v2h-4zM4 16h4v2H4zm12 0h4v2h-4z"/></svg>
+          {% else %}
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="media-info">
+        <div class="media-title">{{ item.title }}</div>
+        <div class="media-meta">
+          {%- assign _sep = false -%}
+          {%- if item.subtitle -%}{{ item.subtitle }}{%- assign _sep = true -%}{%- endif -%}
+          {%- if item.type -%}{%- if _sep %} · {% endif %}{{ item.type }}{%- assign _sep = true -%}{%- endif -%}
+          {%- if item.year -%}{%- if _sep %} · {% endif %}{{ item.year }}{%- assign _sep = true -%}{%- endif -%}
+          {%- if item.extra -%}{%- if _sep %} · {% endif %}{{ item.extra }}{%- endif -%}
+        </div>
+      </div>
+
+    </a>
+    {% endfor %}
+  </div>
+{% endfor %}

@@ -1,0 +1,548 @@
+- section: Фільми
+  url: https://www.imdb.com/title/tt2305051/
+  title: "Wild"
+  subtitle: "Adventure, Biography, Drama"
+  year: "2014"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZTJlNTQ5NDUtOTVkNi00ODA5LTkyMjktMzM5YTU4N2Y5YzVlXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt2884206/
+  title: "I Origins"
+  subtitle: "Drama, Mystery, Romance"
+  year: "2014"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTQ0MTAwMDI1OF5BMl5BanBnXkFtZTgwNjUwMTA2MTE@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1392214/
+  title: "Prisoners"
+  subtitle: "Crime, Drama, Mystery"
+  year: "2013"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0119715/
+  title: "Mousehunt"
+  subtitle: "Comedy"
+  year: "1997"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZmY2MmVmNGMtNWU1Ny00NGQ5LTkwNDYtMmFhNzRlZWViYjViXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0367594/
+  title: "Charlie and the Chocolate Factory"
+  subtitle: "Adventure, Comedy, Family"
+  year: "2005"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNjcxMjg1Njg2NF5BMl5BanBnXkFtZTcwMjQ4NzMzMw@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0109686/
+  title: "Dumb and Dumber"
+  subtitle: "Comedy"
+  year: "1994"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNGQxZDA1MmMtYWQ1Ni00NTJmLTljMjgtZWVmODllODVhMzgyXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0162661/
+  title: "Sleepy Hollow"
+  subtitle: "Fantasy, Horror, Mystery"
+  year: "1999"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYWIwMTIxZTQtNDZhNS00ZDZlLTg5MTEtOTNkMmNjOGUzMTA1XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt2582802/
+  title: "Whiplash"
+  subtitle: "Drama, Music"
+  year: "2014"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMDFjOWFkYzktYzhhMC00NmYyLTkwY2EtYjViMDhmNzg0OGFkXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt7286456/
+  title: "Joker"
+  subtitle: "Crime, Drama, Thriller"
+  year: "2019"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0120382/
+  title: "The Truman Show"
+  subtitle: "Comedy, Drama"
+  year: "1998"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1675434/
+  title: "The Intouchables"
+  subtitle: "Comedy, Drama"
+  year: "2011"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1160419/
+  title: "Dune: Part One"
+  subtitle: "Action, Adventure, Drama"
+  year: "2021"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0112642/
+  title: "Casper"
+  subtitle: "Comedy, Family, Fantasy"
+  year: "1995"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZjYzZWZlYzYtZWZkYy00YjRkLWIxN2EtNjY1MGZmYmQxYTIxXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0088763/
+  title: "Back to the Future"
+  subtitle: "Adventure, Comedy, Sci-Fi"
+  year: "1985"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZmM3ZjE0NzctNjBiOC00MDZmLTgzMTUtNGVlOWFlOTNiZDJiXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0096874/
+  title: "Back to the Future Part II"
+  subtitle: "Adventure, Comedy, Sci-Fi"
+  year: "1989"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTNlOTRmOTEtMTAyMi00NjFiLTk3NDMtNWI0YzA3ZTZlYjZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0099088/
+  title: "Back to the Future Part III"
+  subtitle: "Adventure, Comedy, Sci-Fi"
+  year: "1990"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNTNkNzJmY2MtOGNjYi00NDJmLWIyZTQtNmFmMGQ5M2VlOTI0XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0468569/
+  title: "The Dark Knight"
+  subtitle: "Action, Crime, Drama"
+  year: "2008"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0382932/
+  title: "Ratatouille"
+  subtitle: "Animation, Adventure, Comedy"
+  year: "2007"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTMzODU0NTkxMF5BMl5BanBnXkFtZTcwMjQ4MzMzMw@@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1323594/
+  title: "Despicable Me"
+  subtitle: "Animation, Adventure, Comedy"
+  year: "2010"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0126029/
+  title: "Shrek"
+  subtitle: "Animation, Adventure, Comedy"
+  year: "2001"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BN2FkMTRkNTUtYTI0NC00ZjI4LWI5MzUtMDFmOGY0NmU2OGY1XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0317219/
+  title: "Cars"
+  subtitle: "Animation, Adventure, Comedy"
+  year: "2006"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTg5NzY0MzA2MV5BMl5BanBnXkFtZTYwNDc3NTc2._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0275847/
+  title: "Lilo & Stitch"
+  subtitle: "Animation, Adventure, Comedy"
+  year: "2002"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYzRiYTA1YTEtMjYwMi00NGVhLThkOGYtZDBlYjNjZDk2NDEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0198781/
+  title: "Monsters, Inc."
+  subtitle: "Animation, Adventure, Comedy"
+  year: "2001"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0MDE@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0892769/
+  title: "How to Train Your Dragon"
+  subtitle: "Animation, Action, Adventure"
+  year: "2010"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0133093/
+  title: "The Matrix"
+  subtitle: "Action, Sci-Fi"
+  year: "1999"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0234215/
+  title: "The Matrix Reloaded"
+  subtitle: "Action, Sci-Fi"
+  year: "2003"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNjAxYjkxNjktYTU0YS00NjFhLWIyMDEtMzEzMTJjMzRkMzQ1XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0242653/
+  title: "The Matrix Revolutions"
+  subtitle: "Action, Sci-Fi"
+  year: "2003"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMmNmMTEzODQtNmExMS00OGUxLWFkNTItMTM3NzBlNDk0YWU5XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt10838180/
+  title: "The Matrix Resurrections"
+  subtitle: "Action, Sci-Fi"
+  year: "2021"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMDMyNDIzYzMtZTMyMy00NjUyLWI3Y2MtYzYzOGE1NzQ1MTBiXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0110912/
+  title: "Pulp Fiction"
+  subtitle: "Crime, Drama"
+  year: "1994"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_QL75_UY562_CR3,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0137523/
+  title: "Fight Club"
+  subtitle: "Crime, Drama, Thriller"
+  year: "1999"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0114369/
+  title: "Seven"
+  subtitle: "Crime, Drama, Mystery"
+  year: "1995"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BY2IzNzMxZjctZjUxZi00YzAxLTk3ZjMtODFjODdhMDU5NDM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,16,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1375666/
+  title: "Inception"
+  subtitle: "Action, Adventure, Sci-Fi"
+  year: "2010"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0816692/
+  title: "Interstellar"
+  subtitle: "Adventure, Drama, Sci-Fi"
+  year: "2014"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0111161/
+  title: "The Shawshank Redemption"
+  subtitle: "Drama"
+  year: "1994"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0253474/
+  title: "The Pianist"
+  subtitle: "Biography, Drama, Music"
+  year: "2003"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjEwNmEwYjgtNTk3ZC00NjljLTg5ZDctZTY3ZGQwZjRkZmQxXkEyXkFqcGc@._V1_QL75_UY562_CR14,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0469494/
+  title: "There Will Be Blood"
+  subtitle: "Drama"
+  year: "2007"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0477348/
+  title: "No Country for Old Men"
+  subtitle: "Crime, Drama, Thriller"
+  year: "2007"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0086979/
+  title: "Blood Simple"
+  subtitle: "Crime, Drama, Thriller"
+  year: "1984"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNTYxNWY5ODktYWRkOC00NDdkLWIwOGQtOWY5YWQ1N2Q3OWViXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0116483/
+  title: "Happy Gilmore"
+  subtitle: "Comedy, Sport"
+  year: "1996"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMzMyZTM1MTMtNDdjOS00NzIzLTkxY2QtZTU4OGYxOTUwNDMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0170016/
+  title: "How the Grinch Stole Christmas"
+  subtitle: "Comedy, Family, Fantasy"
+  year: "2000"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNDAwMjFhYTEtNzYyMS00YmY2LTg3MGEtZTRkNWNiMDI4MDRkXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0099785/
+  title: "Home Alone"
+  subtitle: "Comedy, Family"
+  year: "1990"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNzNmNmQ2ZDEtMTc1MS00NjNiLThlMGUtZmQxNTg1Nzg5NWMzXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0104431/
+  title: "Home Alone 2: Lost in New York"
+  subtitle: "Adventure, Comedy, Crime"
+  year: "1992"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BOGEyYzRmNzYtYzJjZi00ZjhlLWJiNDktYzZhNTgxMzc1NThlXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0119303/
+  title: "Home Alone 3"
+  subtitle: "Action, Comedy, Crime"
+  year: "1997"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNmI0MjcxYjYtYzY5Ni00NjBkLTllN2MtZGYyNzJiYzA5ZGYxXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0241527/
+  title: "Harry Potter and the Sorcerer's Stone"
+  subtitle: "Adventure, Family, Fantasy"
+  year: "2001"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0295297/
+  title: "Harry Potter and the Chamber of Secrets"
+  subtitle: "Adventure, Family, Fantasy"
+  year: "2002"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNGJhM2M2MWYtZjIzMC00MDZmLThkY2EtOWViMDhhYjRhMzk4XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0304141/
+  title: "Harry Potter and the Prisoner of Azkaban"
+  subtitle: "Adventure, Family, Fantasy"
+  year: "2004"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTY4NTIwODg0N15BMl5BanBnXkFtZTcwOTc0MjEzMw@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0330373/
+  title: "Harry Potter and the Goblet of Fire"
+  subtitle: "Adventure, Family, Fantasy"
+  year: "2005"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTIzNzUzOTk2NV5BMl5BanBnXkFtZTYwNTI4MDg2._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0373889/
+  title: "Harry Potter and the Order of the Phoenix"
+  subtitle: "Action, Adventure, Family"
+  year: "2007"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYWJmM2M1YzItMjY1Ni00YzRmLTg5YWYtNDFmNTJjNzQ0ODkyXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0417741/
+  title: "Harry Potter and the Half-Blood Prince"
+  subtitle: "Action, Adventure, Family"
+  year: "2009"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0926084/
+  title: "Harry Potter and the Deathly Hallows: Part 1"
+  subtitle: "Adventure, Family, Fantasy"
+  year: "2010"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTQ2OTE1Mjk0N15BMl5BanBnXkFtZTcwODE3MDAwNA@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1201607/
+  title: "Harry Potter and the Deathly Hallows: Part 2"
+  subtitle: "Adventure, Family, Fantasy"
+  year: "2011"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BOTA1Mzc2N2ItZWRiNS00MjQzLTlmZDQtMjU0NmY1YWRkMGQ4XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0195714/
+  title: "Final Destination"
+  subtitle: "Horror, Thriller"
+  year: "2000"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjE1MjlmOWYtYzdjMS00OTgwLThjMDctZWU4N2FkZjgyNTJiXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0309593/
+  title: "Final Destination 2"
+  subtitle: "Horror, Thriller"
+  year: "2003"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjExMTMyODAzN15BMl5BanBnXkFtZTYwNjc5NDQ3._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0414982/
+  title: "Final Destination 3"
+  subtitle: "Horror, Thriller"
+  year: "2006"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMzI3NzE0MmEtYmFjZC00NTJhLWI4OWUtNGRmNDEwNGU3NzM0XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1144884/
+  title: "The Final Destination"
+  subtitle: "Horror, Thriller"
+  year: "2009"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYzY2YWViNDItNWM1NC00MGFhLTg1NzctMGIyYTMwYTk1MTdiXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1622979/
+  title: "Final Destination 5"
+  subtitle: "Horror, Thriller"
+  year: "2011"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTgyOTExNDc1M15BMl5BanBnXkFtZTcwMDA0MTA4NQ@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt1130884/
+  title: "Shutter Island"
+  subtitle: "Drama, Mystery, Thriller"
+  year: "2010"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0338013/
+  title: "Eternal Sunshine of the Spotless Mind"
+  subtitle: "Drama, Romance, Sci-Fi"
+  year: "2004"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTY4NzcwODg3Nl5BMl5BanBnXkFtZTcwNTEwOTMyMw@@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0180093/
+  title: "Requiem for a Dream"
+  subtitle: "Drama"
+  year: "2000"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BN2ZlMjIzZjctYzA2My00ZWYyLWI4ZjctMGI2NWYyNzFiZjAwXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0110413/
+  title: "Léon: The Professional"
+  subtitle: "Action, Crime, Drama"
+  year: "1994"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNGRkYTNhOWQtYmI0Ni00MjZhLWJmMzAtMTA2Mjg4NGNiNDU0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Фільми
+  url: https://www.imdb.com/title/tt0169547/
+  title: "American Beauty"
+  subtitle: "Drama"
+  year: "1999"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb

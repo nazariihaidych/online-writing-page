@@ -1,0 +1,30 @@
+google_analytics: G-XXXXXXXXXX  # replace with your real Measurement ID
+
+title: Онлайн сторінка письма
+description: Тексти, думки та все що виливається і знаходить свою форму в подобі речень і абзаців.
+baseurl: ""
+url: ""
+lang: uk
+author: Назарій Гайдич
+email: online.writing.page@gmail.com
+
+collections:
+  stories:
+    output: true
+    permalink: /stories/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: stories
+    values:
+      layout: story
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

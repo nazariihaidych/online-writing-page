@@ -1,0 +1,47 @@
+- section: Подкасти
+  url: https://youtube.com/playlist?list=PL1wS3WkihAPVzw1JZMux488Cl9SuT5nB0
+  title: "Запах Слова"
+  subtitle: "hromadske.зміст - Літературний подкаст із Сергієм Чирковим та з Євгенієм Стасіневичем"
+  thumbnail: https://i.ytimg.com/vi/fT833MV1aW0/hqdefault.jpg
+  aspect: square
+  platform: youtube
+
+- section: Подкасти
+  url: https://youtube.com/playlist?list=PL65JS5evb1TiMat5DmL_jbkXE3J43T42H
+  title: "Підпільні Подкасти"
+  subtitle: "ПІДПІЛЬНИЙ.2"
+  thumbnail: https://i.ytimg.com/vi/msB7DRfmSy4/hqdefault.jpg
+  aspect: square
+  platform: youtube
+
+- section: Подкасти
+  url: https://open.spotify.com/show/1c1OR7DgN43f3HOBFPCDnu
+  title: "Акустика Тіней"
+  subtitle: "Авторський подкаст Іванни Шкромиди про світову літературу"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1f886f99b150412b61c514d97e
+  aspect: square
+  platform: spotify
+
+- section: Подкасти
+  url: https://open.spotify.com/show/4u9eoMfuTzLIp5PU2hp2Zy
+  title: "Вставне слово"
+  subtitle: "У подкасті Вставне слово від Litosvita говоримо про все, що творить сучасний український книжковий ринок та сучасний літ"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67656300005f1f5e6ee6e86c3db68992686203
+  aspect: square
+  platform: spotify
+
+- section: Подкасти
+  url: https://open.spotify.com/show/1KtTpjzGGGQhEMsEZtNyG8
+  title: "Про текст"
+  subtitle: "Подкаст «Про текст» від Litosvita – це розмови з найкрутішими літературознавцями, письменниками, редакторами про літерат"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67656300005f1f552450a4c2566e69c9b3368a
+  aspect: square
+  platform: spotify
+
+- section: Подкасти
+  url: https://www.youtube.com/@vusa.gogolya
+  title: "Вуса Гоголя"
+  subtitle: "Вадим Кириленко та Микита Рибаков говорять про книжки."
+  thumbnail: https://yt3.googleusercontent.com/RxL7diE-Tvi8lgNSsQAtLq_mmQh-Cph4U4lJ1uRiOASd2_ScBAI7gq5LP2KROG1iQCw_cNkU=s200-c-k-c0x00ffffff-no-rj
+  aspect: square
+  platform: youtube

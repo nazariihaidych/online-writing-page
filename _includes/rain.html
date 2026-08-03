@@ -1,0 +1,105 @@
+<canvas id="rain-canvas" aria-hidden="true"></canvas>
+
+<style>
+  #rain-canvas {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0;
+    animation: rainFadeIn 6s ease-out forwards;
+  }
+  @keyframes rainFadeIn {
+    to { opacity: 1; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #rain-canvas { display: none; }
+  }
+</style>
+
+<script>
+(function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  var canvas  = document.getElementById('rain-canvas');
+  var ctx     = canvas.getContext('2d');
+  var drops   = [];
+  var running = true;
+
+  function resize() {
+    var scaleX = canvas.width ? window.innerWidth / canvas.width : 1;
+    canvas.width  = window.innerWidth;
+    canvas.height = window.innerHeight;
+    if (!drops.length) { spawnDrops(); return; }
+    drops.forEach(function (d) { d.x *= scaleX; });
+  }
+
+  function isDark() {
+    var t = document.documentElement.getAttribute('data-theme');
+    if (t === 'dark')  return true;
+    if (t === 'light') return false;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  function spawnDrops() {
+    drops = [];
+    for (var i = 0; i < 120; i++) {
+      drops.push({
+        x:       Math.random() * canvas.width,
+        y:       Math.random() * canvas.height,
+        len:     Math.random() * 14 + 7,
+        speed:   Math.random() * 2 + 1.5,
+        opacity: Math.random() * 0.25 + 0.12
+      });
+    }
+  }
+
+  function tick() {
+    if (!running) return;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    var rgb = isDark() ? '190,210,255' : '30,50,90';
+
+    for (var i = 0; i < drops.length; i++) {
+      var d = drops[i];
+      ctx.beginPath();
+      ctx.moveTo(d.x, d.y);
+      ctx.lineTo(d.x - 0.5, d.y + d.len);
+      ctx.strokeStyle = 'rgba(' + rgb + ',' + d.opacity + ')';
+      ctx.lineWidth   = 0.6;
+      ctx.stroke();
+
+      d.y += d.speed;
+      if (d.y > canvas.height + d.len) {
+        d.y = -d.len;
+        d.x = Math.random() * canvas.width;
+      }
+    }
+
+    requestAnimationFrame(tick);
+  }
+
+  window._rain = {
+    pause:  function () { running = false; },
+    resume: function () { if (!running) { running = true; tick(); } }
+  };
+
+  function updateClip() {
+    var cover = document.querySelector('.story-cover-banner');
+    if (!cover) { canvas.style.clipPath = ''; return; }
+    var clip = Math.max(0, cover.getBoundingClientRect().bottom);
+    canvas.style.clipPath = 'inset(' + clip + 'px 0 0 0)';
+  }
+
+  resize();
+  window.addEventListener('resize', resize);
+  window.addEventListener('scroll', updateClip, { passive: true });
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', updateClip);
+  } else {
+    updateClip();
+  }
+
+  tick();
+}());
+</script>

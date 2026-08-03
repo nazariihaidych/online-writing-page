@@ -1,0 +1,379 @@
+- section: Дивлюсь
+  url: https://www.imdb.com/title/tt0411008/
+  title: "Lost"
+  subtitle: "Adventure, Drama, Fantasy"
+  year: "2004–2010"
+  extra: "6 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Дивлюсь
+  url: https://www.imdb.com/title/tt6064882/
+  title: "Room 104"
+  subtitle: "Comedy, Drama, Fantasy"
+  year: "2017–2020"
+  extra: "4 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZTdiZTgyNmItYzU0MS00Nzc5LTk3M2ItNzQzOTZkZDIzYmQxXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: Дивлюсь
+  url: https://www.imdb.com/title/tt9813792/
+  title: "From"
+  subtitle: "Drama, Horror, Mystery"
+  year: "2022–"
+  extra: "5 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNDAwNDljNWEtNWE1Zi00YjFlLWEzM2UtY2E3ZTM1MTcxMTcyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt32937780/
+  title: "Something Very Bad Is Going to Happen"
+  subtitle: "Drama, Horror"
+  year: "2026"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BOTgzOTE4ZDctNWM1OS00Nzk2LWEyNTUtMjc2MjVlNjMzMjUyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt27995114/
+  title: "Dept. Q"
+  subtitle: "Crime, Drama, Mystery"
+  year: "2025–"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNWQ3MDQ2MGQtOGM0MC00MzlkLWE0ODQtYzE4Zjc3Mjc1ZWI5XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt4574334/
+  title: "Stranger Things"
+  subtitle: "Drama, Fantasy, Horror"
+  year: "2016–2025"
+  extra: "5 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNjRiMTA4NWUtNmE0ZC00NGM0LWJhMDUtZWIzMDM5ZDIzNTg3XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt6763664/
+  title: "The Haunting of Hill House"
+  subtitle: "Drama, Horror, Mystery"
+  year: "2018"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTU4NzA4MDEwNF5BMl5BanBnXkFtZTgwMTQxODYzNjM@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt10970552/
+  title: "The Haunting of Bly Manor"
+  subtitle: "Drama, Horror, Mystery"
+  year: "2020"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYTkwYzExODYtYmI2OS00MmM1LWI5M2MtNzYyOTIxMmI1NTc5XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0773262/
+  title: "Dexter"
+  subtitle: "Crime, Drama, Mystery"
+  year: "2006–2013"
+  extra: "8 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTQ3YmQ4YzMtOTkyZC00YmM5LThhZjEtM2E0MjFkNTc0OGJhXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt14164730/
+  title: "Dexter: New Blood"
+  subtitle: "Crime, Drama, Mystery"
+  year: "2021–2022"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZGY4YjY5MGItNzM2NS00Y2M1LWFkYTYtZjI0ZDk3NTE0NmE0XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt33043892/
+  title: "Dexter: Resurrection"
+  subtitle: "Crime, Drama, Thriller"
+  year: "2025–"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMzgxNzUwZTctMzliNi00MDUwLWE4YzctNjgwMDE2OWQwNzMxXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt10986410/
+  title: "Ted Lasso"
+  subtitle: "Comedy, Drama, Sport"
+  year: "2020–"
+  extra: "4 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZmI3YWVhM2UtNDZjMC00YTIzLWI2NGUtZWIxODZkZjVmYTg1XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt10919420/
+  title: "Squid Game"
+  subtitle: "Action, Crime, Drama"
+  year: "2021–2025"
+  extra: "3 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYTU3ZDVhNmMtMDVlNC00MDc0LTgwNDMtYWE5MTI2ZGI4YWIwXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt11612120/
+  title: "Sweet Home"
+  subtitle: "Drama, Fantasy, Horror"
+  year: "2020–2024"
+  extra: "3 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZDE0MTM5YjgtMzNhOS00NWE2LTkxN2EtMzg0NWRmODBmMDA5XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt2085059/
+  title: "Black Mirror"
+  subtitle: "Crime, Drama, Mystery"
+  year: "2011–"
+  extra: "7 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BODcxMWI2NDMtYTc3NC00OTZjLWFmNmUtM2NmY2I1ODkxYzczXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt13443470/
+  title: "Wednesday"
+  subtitle: "Comedy, Crime, Fantasy"
+  year: "2022–"
+  extra: "3 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BY2E1NDI5OWEtODJmYi00Nzg2LWI4MjUtODFiMTU2YWViOTU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt7660850/
+  title: "Succession"
+  subtitle: "Comedy, Drama"
+  year: "2018–2023"
+  extra: "4 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYTY4YTVkY2QtMjRmOS00YzliLWIxOWQtMTdkOTVkN2UzODNmXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt2442560/
+  title: "Peaky Blinders"
+  subtitle: "Crime, Drama"
+  year: "2013–2022"
+  extra: "6 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BOGM0NGY3ZmItOGE2ZC00OWIxLTk0N2EtZWY4Yzg3ZDlhNGI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt3647998/
+  title: "Taboo"
+  subtitle: "Drama, Mystery, Thriller"
+  year: "2017"
+  extra: "2 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTYyNTQwNzk0OV5BMl5BanBnXkFtZTgwMDAyMDI2MDI@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt2306299/
+  title: "Vikings"
+  subtitle: "Action, Adventure, Drama"
+  year: "2013–2020"
+  extra: "6 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BOTFmZmExYTEtYmE0Mi00MzRmLWE4ZDYtOThiNzNlOTIyODljXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0944947/
+  title: "Game of Thrones"
+  subtitle: "Action, Adventure, Drama"
+  year: "2011–2019"
+  extra: "8 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0903747/
+  title: "Breaking Bad"
+  subtitle: "Crime, Drama, Thriller"
+  year: "2008–2013"
+  extra: "5 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMzU5ZGYzNmQtMTdhYy00OGRiLTg0NmQtYjVjNzliZTg1ZGE4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0412142/
+  title: "House"
+  subtitle: "Drama"
+  year: "2004–2012"
+  extra: "8 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMjgxYjAwNmMtYTAwZC00YmQxLWJlOTMtMWM0NGJmNDE0YmI2XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0386676/
+  title: "The Office"
+  subtitle: "Comedy"
+  year: "2005–2013"
+  extra: "9 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZjQwYzBlYzUtZjhhOS00ZDQ0LWE0NzAtYTk4MjgzZTNkZWEzXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0108778/
+  title: "Friends"
+  subtitle: "Comedy, Romance"
+  year: "1994–2004"
+  extra: "10 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BOTU2YmM5ZjctOGVlMC00YTczLTljM2MtYjhlNGI5YWMyZjFkXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt6048596/
+  title: "The Sinner"
+  subtitle: "Crime, Drama, Mystery"
+  year: "2017–2021"
+  extra: "4 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTRkNGZlMjUtZGVhZi00YjgzLTgwZmMtMGVlZTc4OGUzODk1XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt10399902/
+  title: "Boy Swallows Universe"
+  subtitle: "Crime, Drama, Mystery"
+  year: "2024"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYTUwZWY4ZWItZDk0Yy00NDNmLTkxYTUtNTI5OTg3MWQ4MzI0XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt8741290/
+  title: "Tales from the Loop"
+  subtitle: "Drama, Sci-Fi"
+  year: "2020"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTlhNzI5YjAtMDllZC00MmJjLTk4MGYtYjdiNWEyOTc3Mjc1XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt11343600/
+  title: "Brand New Cherry Flavor"
+  subtitle: "Drama, Horror, Mystery"
+  year: "2021"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNDZjNTJmMmEtZjYwOS00MTYzLTgwYTYtYWJiMDkxNDMzMDAyXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt11102190/
+  title: "Katla"
+  subtitle: "Drama, Fantasy, Mystery"
+  year: "2021"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMGNjNzM0YzMtODc2Yi00NDM3LWE3YjAtN2E5OTk4ZTlhYzQxXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt11564258/
+  title: "The Playlist"
+  subtitle: "Biography, Drama, Music"
+  year: "2022"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNDExODQ3OGMtOWVlMC00NjgzLWE4YmEtNzY0MGQ2ZjM2NzRhXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt15392100/
+  title: "The Billion Dollar Code"
+  subtitle: "Biography, Crime, Drama"
+  year: "2021"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYzVmYWFkNDQtMWI1MC00ZWQyLTkzNzktZWQ0MTZkZTZhMTE0XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0409591/
+  title: "Naruto"
+  subtitle: "Animation, Action, Adventure"
+  year: "2002–2007"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZTNjOWI0ZTAtOGY1OS00ZGU0LWEyOWYtMjhkYjdlYmVjMDk2XkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0988824/
+  title: "Naruto: Shippuden"
+  subtitle: "Animation, Action, Adventure"
+  year: "2007–2017"
+  extra: "21 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BNTk3MDA1ZjAtNTRhYS00YzNiLTgwOGEtYWRmYTQ3NjA0NTAwXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt2560140/
+  title: "Attack on Titan"
+  subtitle: "Animation, Action, Adventure"
+  year: "2013–2023"
+  extra: "4 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZjliODY5MzQtMmViZC00MTZmLWFhMWMtMjMwM2I3OGY1MTRiXkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt13616990/
+  title: "Chainsaw Man"
+  subtitle: "Animation, Action, Comedy"
+  year: "2022"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZGY2ZTM2MWMtNzA2OS00ZjJlLWIwZTMtMDBhN2EwYjZjZjEyXkEyXkFqcGc@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt2861424/
+  title: "Rick and Morty"
+  subtitle: "Animation, Adventure, Comedy"
+  year: "2013–"
+  extra: "9 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZGQyZjk2MzMtMTcyNC00NGU3LTlmNjItNDExMWM4ZDFhYmQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt4635282/
+  title: "The OA"
+  subtitle: "Drama, Fantasy, Mystery"
+  year: "2016–2019"
+  extra: "2 сезони"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMTY5OTkwNDkzOF5BMl5BanBnXkFtZTgwMDEyNzI1NzM@._V1_SX600.jpg
+  aspect: poster
+  platform: imdb

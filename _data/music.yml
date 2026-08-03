@@ -1,0 +1,518 @@
+- section: З нового
+  url: https://open.spotify.com/track/1KVkzkmFBx4A8bCma6ruKA
+  title: "Fabienk"
+  subtitle: "Angine de Poitrine"
+  year: "2026"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024821b77fd92093513d7634b5
+  aspect: square
+  platform: spotify
+
+- section: З нового
+  url: https://open.spotify.com/track/5lhy5Z5GRczRp9yZefylhw
+  title: "Ultra Orange"
+  subtitle: "Wave Saver"
+  year: "2022"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02fd7ac696018d75f0b2b1103d
+  aspect: square
+  platform: spotify
+
+- section: З нового
+  url: https://open.spotify.com/track/0CzoQCylIwa6OXUACZY935
+  title: "Lady Rain"
+  subtitle: "Rogér Fakhr"
+  year: "2021"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c74be8ab8256ce3c0e309e3f
+  aspect: square
+  platform: spotify
+
+- section: Плейлисти
+  url: https://open.spotify.com/playlist/37i9dQZF1DX9cbNxuNYT3d
+  title: "La French Touch"
+  subtitle: "Spotify"
+  extra: "60 пісень"
+  thumbnail: https://i.scdn.co/image/ab67706f000000024381593a82554c7b005b1271
+  aspect: square
+  platform: spotify
+
+- section: Плейлисти
+  url: https://open.spotify.com/playlist/5L6blrb9okq8EToKqn2dcQ
+  title: "Музика Акустики Тіней"
+  subtitle: "Ivanna Shkromyda"
+  extra: "88 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84405d4f0168013c70b6efedb1
+  aspect: square
+  platform: spotify
+
+- section: Плейлисти
+  url: https://open.spotify.com/playlist/37i9dQZF1DX5zxOB6DkdZY
+  title: "Хіти Незалежної України"
+  subtitle: "Spotify"
+  extra: "70 пісень"
+  thumbnail: https://i.scdn.co/image/ab67706f00000002959f1e72cc20a36bbd32d502
+  aspect: square
+  platform: spotify
+
+- section: Плейлисти
+  url: https://music.youtube.com/playlist?list=RDCLAK5uy_mKG82QR9YJO3Kzg3NTl3AYMYGvWopirIo
+  title: "Енергійний український рок"
+  extra: "64 пісні"
+  thumbnail: "/assets/images/about/music/ukr-rok.webp"
+  aspect: square
+  platform: youtube
+
+- section: Окремі композиції
+  note: "Для зручності зібрав у плейлисти."
+  url: https://music.youtube.com/playlist?list=PLI_cuNJjqgfXJMaDo4rZ95SXsl4mizsP8
+  title: "Окремі композиції"
+  subtitle: "Назарій Гайдич"
+  thumbnail: "/assets/images/site/owp-icon.png"
+  aspect: square
+  platform: youtube
+
+- section: Окремі композиції
+  url: https://open.spotify.com/playlist/0txvWnRh0TgQM6KZc3xOhg
+  title: "Окремі композиції"
+  subtitle: "Nazarii"
+  extra: "100 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da849b66135f9aafbd7a7665977f
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/7loetdRNKmHMqcmIIXLm0i
+  title: "Breathing (Original Motion Picture Soundtrack From A Lost Film)"
+  subtitle: "Electric Youth"
+  extra: "23 пісні"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02795b6057c263637cffed75a6
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4SOUwRczibi7WGcjhQMhPF
+  title: "LCD"
+  subtitle: "Posy"
+  extra: "9 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e024239c730f3c4f36b6e6cd4a7
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4x7NdpJuqu4aklGDR2E2jw
+  title: "Tales from the Loop (Original Soundtrack)"
+  subtitle: "Philip Glass"
+  extra: "30 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a638a1ac3620b551c26e435b
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2X0L9mwLuMqAK8rf965Vmi
+  title: "Coming From Reality"
+  subtitle: "Rodríguez"
+  extra: "10 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0286146e2f7fc9e43db86dc66f
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/3q90UAYeHLvAtnowiQlmgp
+  title: "Cold Fact"
+  subtitle: "Rodríguez"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e7e1b574a9e6b9f26c7c3f49
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/6nN5b5w93prVcCpLex1xdZ
+  title: "Midnight City"
+  subtitle: "M83"
+  extra: "5 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0274436a2f31ed7a8dec173470
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/6x1kSp5shegOWrW9sjeQfJ
+  title: "Oblivion (Original Motion Picture Soundtrack) [Deluxe Edition]"
+  subtitle: "M83"
+  extra: "30 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02d9ab3b78d4d2c4ce5545dcd5
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/0pPHcb9k5gLDmgijz2H5cL
+  title: "Knife + Heart (Original Soundtrack)"
+  subtitle: "M83"
+  extra: "27 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e025dda86afe482e7006ab9a734
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2NDfGFApzXItl4hNOj1M4k
+  title: "Junk"
+  subtitle: "M83"
+  extra: "15 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f5839f46c8b6bba8aceeb6e2
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/6EB14IXV5oyOiItGBv7mtG
+  title: "Hurry up, We're Dreaming"
+  subtitle: "M83"
+  extra: "22 пісні"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0262100064780b1d919a95fcf4
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/79dL7FLiJFOO0EoehUHQBv
+  title: "Currents"
+  subtitle: "Tame Impala"
+  extra: "13 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029e1cfc756886ac782e363d79
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/31qVWUdRrlb8thMvts0yYL
+  title: "The Slow Rush"
+  subtitle: "Tame Impala"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0258267bd34420a00d5cf83a49
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa
+  title: "Random Access Memories"
+  subtitle: "Daft Punk"
+  extra: "13 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e029b9b36b0e22870b9f542d937
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/5uRdvUR7xCnHmUW8n64n9y
+  title: "Homework"
+  subtitle: "Daft Punk"
+  extra: "16 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028ac778cc7d88779f74d33311
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2noRn2Aes5aoNVsU6iWThc
+  title: "Discovery"
+  subtitle: "Daft Punk"
+  extra: "14 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021e81bff9807a9e629fce5ade
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2T7DdrOvsqOqU9bGTkjBYu
+  title: "Human After All"
+  subtitle: "Daft Punk"
+  extra: "10 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022ed719bad67261c7bf090c70
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe
+  title: "Starboy"
+  subtitle: "The Weeknd"
+  extra: "18 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024718e2b124f79258be7bc452
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj
+  title: "After Hours"
+  subtitle: "The Weeknd"
+  extra: "14 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028863bc11d2aa12b54f5aeb36
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4SUNGP1B6s7NjOIiVaVCKv
+  title: "Innerworld"
+  subtitle: "Electric Youth"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02655a9eb66f070366ca6e4df9
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2PkstTUo2zJbgatbT2JkTU
+  title: "MCMXC a.D."
+  subtitle: "Enigma"
+  extra: "7 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02c7aed2bbf5698336b43ee46f
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/0k9xNTBdpL26aaAowevST0
+  title: "Silence to Silence"
+  subtitle: "Schmalgauzen"
+  extra: "9 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02a9d2db996af625354a29410b
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/5YivnLhF0BhJoPdajzjzHj
+  title: "разом : любов"
+  subtitle: "Schmalgauzen"
+  extra: "31 пісня"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02020e245e301004be22436c26
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/5BqZGAQq2JjVcaD3mNYXra
+  title: "You Gotta Say Yes To Another Excess (Remastered 2005)"
+  subtitle: "Yello"
+  extra: "17 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0249b913626b838ab3659448f6
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/3Df3vYTyJKTZobnCvNUNMC
+  title: "Stella (Remastered 2005)"
+  subtitle: "Yello"
+  extra: "15 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ba59c61d3c5db806f6073719
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/0ogia7iMDXcLaKyYSu45S1
+  title: "One Second (Remastered 2005)"
+  subtitle: "Yello"
+  extra: "16 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e020d2a01f6043b55c3fa37c2c7
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/0ImT9xKissO4j4oU4zUAIG
+  title: "Flag (Remastered 2005)"
+  subtitle: "Yello"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e022533ae52589c1be228dc5bd5
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2X923YDUN9MTWJ1vS4atnB
+  title: "Essential"
+  subtitle: "Yello"
+  extra: "16 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e021173f40ae7be3816003709af
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4IUzxGpoP1DtYaTYBZMNih
+  title: "Zebra"
+  subtitle: "Yello"
+  extra: "11 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02296f7730e72ef1ea562f05e9
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4qTShMOrRnpTHGh3J8QDnS
+  title: "Pocket Universe"
+  subtitle: "Yello"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0244ef66871acfe6ceb925ab11
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4GGazqHvuKwxBjWLFaJkDL
+  title: "Justice"
+  subtitle: "Justice"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e021c0bcf8b536295438d26c70d
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/1jWmEhn3ggaL6isoyLfwBn
+  title: "The Doors"
+  subtitle: "The Doors"
+  extra: "11 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025b96a8c5d61be8878452f8f1
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/0JwHz5SSvpYWuuCNbtYZoV
+  title: "Bridge Over Troubled Water"
+  subtitle: "Simon & Garfunkel"
+  extra: "11 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e028453b853c2cc9c077828eefb
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/07RAGILF28QweYQSZasr5k
+  title: "Sounds Of Silence"
+  subtitle: "Simon & Garfunkel"
+  extra: "11 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024b139bf6224f8f7eae9b4b0e
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/54vg8qp6VpgLo9YGb2jaix
+  title: "Зоряні війни"
+  subtitle: "Фантом-2"
+  extra: "9 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02269433173b395108151d0d5f
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/65MAINF89vs1CdLBWYPwpK
+  title: "Без контролю"
+  subtitle: "Фантом-2"
+  extra: "11 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0227be351d1d70989346b25d50
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/2lHjXOKOxaJsLUDktyQoUq
+  title: "Мова риб"
+  subtitle: "Скрябін"
+  extra: "16 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e0f107f39cd01721054de051
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/7KPpQrU4i0KAqW6jnUo4oM
+  title: "Танець Пінгвіна"
+  subtitle: "Скрябін"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02ddf11908b2aed0b47967f4ef
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/7lMxUXwBas3C42zkbaxuFe
+  title: "Було не любити"
+  subtitle: "Braty Hadiukiny"
+  extra: "8 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02cb524e927bcb667c775d4270
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/7AFWovaaWclERrRwddyHvk
+  title: "Всьо чотко!"
+  subtitle: "Braty Hadiukiny"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0297eef4182fed528c651a8c11
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/25mwT5OmUtKV6NlXDWS5Lc
+  title: "Музіка"
+  subtitle: "Vopli Vidopliassova"
+  extra: "12 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02e547d4c6b3825702d8744c68
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4IBCpvTUmQdKBhwYuJYDFJ
+  title: "Радіо Афродита"
+  subtitle: "Мертвий півень"
+  extra: "10 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0269baa8c609ea93750185dacb
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/5Dbax7G8SWrP9xyzkOvy2F
+  title: "The Wall"
+  subtitle: "Pink Floyd"
+  extra: "26 пісень"
+  thumbnail: https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02b694e89ba937dd2631ff584c
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/4LH4d3cOWNNsVw41Gqt2kv
+  title: "The Dark Side of the Moon"
+  subtitle: "Pink Floyd"
+  extra: "10 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02db216ca805faf5fe35df4ee6
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/0bCAjiUamIFqKJsekOYuRw
+  title: "Wish You Were Here"
+  subtitle: "Pink Floyd"
+  extra: "5 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02828e52cfb7bf22869349799e
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/5F0IQXuHfTV7SBvZVnXERl
+  title: "The Division Bell"
+  subtitle: "Pink Floyd"
+  extra: "11 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02f508f0949710aa33a79cf6b2
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/3b4E89rxzZQ9zkhgKpj8N4
+  title: "Animals"
+  subtitle: "Pink Floyd"
+  extra: "5 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02472f3fa4fa9c696f7ef8f037
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno
+  title: "Dummy"
+  subtitle: "Portishead"
+  extra: "11 пісень"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e02dc20397b139223620af148f6
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://open.spotify.com/album/56k8ay5oE5apR61WIeE4wQ
+  title: "Dune (Original Motion Picture Soundtrack)"
+  subtitle: "Hans Zimmer"
+  extra: "22 пісні"
+  thumbnail: https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e0221626120d84d905166ad0200
+  aspect: square
+  platform: spotify
+
+- section: Альбоми
+  url: https://music.youtube.com/playlist?list=OLAK5uy_nsdC9MSylyttp6-POqF4vnCMhGihwwOsw
+  title: "Album - Hatful of Hollow"
+  thumbnail: https://i.ytimg.com/vi/mHQ5eN7zzyw/hqdefault.jpg
+  aspect: square
+  platform: youtube

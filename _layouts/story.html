@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% if page.cover_image %}
+  <div class="story-cover-banner" style="background-image: url('{{ page.cover_image | relative_url }}'); background-position: {{ page.cover_position | default: 'center' }};"></div>
+{% elsif page.cover_color %}
+  <div class="story-cover-banner" style="background: {{ page.cover_color }};"></div>
+{% endif %}
+
+<div class="container">
+  <div class="story-header">
+    <h1 class="story-title">{{ page.title }}</h1>
+
+    <div class="story-props">
+      <div class="story-prop">
+        <div class="story-prop-label">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Автор
+        </div>
+        <div class="story-prop-value">{{ page.author | default: site.author }}</div>
+      </div>
+
+      {% if page.first_draft %}
+      <div class="story-prop">
+        <div class="story-prop-label">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          Перший нарис
+        </div>
+        <div class="story-prop-value">{{ page.first_draft | date: "%d/%m/%Y" }}</div>
+      </div>
+      {% endif %}
+
+      <div class="story-prop">
+        <div class="story-prop-label">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Дата публікації
+        </div>
+        <div class="story-prop-value">{{ page.date | date: "%d/%m/%Y" }}</div>
+      </div>
+
+      {% if page.part_of %}
+      <div class="story-prop">
+        <div class="story-prop-label">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          Частина з
+        </div>
+        <div class="story-prop-value">
+          {% if page.part_of_url %}
+            <a href="{{ page.part_of_url }}">{{ page.part_of }}</a>
+          {% else %}
+            {{ page.part_of }}
+          {% endif %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <article class="story-body">
+    {{ content }}
+  </article>
+
+  <div style="padding: 3rem 0 1rem;">
+    <a href="{{ '/#gallery' | relative_url }}" class="story-back">← Усі тексти</a>
+  </div>
+</div>

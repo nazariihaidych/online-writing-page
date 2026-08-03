@@ -1,0 +1,45 @@
+---
+layout: default
+body_class: page-home
+---
+
+<!-- HERO BANNER -->
+<div class="hero"></div>
+
+<!-- INTRO -->
+<div class="container">
+  <div class="intro">
+    <h1 class="site-title-large">{{ site.title }}</h1>
+
+    <div class="intro-text-block">{% capture home_intro %}{% include content/home-intro.md %}{% endcapture %}{{ home_intro | markdownify }}</div>
+
+    <div class="intro-ps">
+      <strong>P.S.</strong>
+      За більш детальною інформацією про те, як все працює, та інші покликання, блукайте сторінкою, і ви все <a href="{{ '/explanations' | relative_url }}">знайдете</a>.
+    </div>
+  </div>
+
+  <!-- STORY GALLERY -->
+  <h2 class="gallery-heading" id="gallery">Галерея історій</h2>
+
+  <div class="story-grid">
+    {% assign stories = site.stories | sort: 'date' | reverse %}
+    {% for story in stories %}
+    <a href="{{ story.url | relative_url }}" class="story-card">
+      <div class="story-card-cover"
+        {% if story.cover_image %}
+          style="background-image: url('{{ story.cover_image | relative_url }}'); background-position: {{ story.card_position | default: 'center' }};"
+        {% elsif story.cover_color %}
+          style="background: {{ story.cover_color }};"
+        {% else %}
+          style="background: #1a1a1a;"
+        {% endif %}
+      ></div>
+      <div class="story-card-body">
+        <div class="story-card-title">{{ story.title }}</div>
+        <div class="story-card-date">{{ story.date | date: "%d/%m/%Y" }}</div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>

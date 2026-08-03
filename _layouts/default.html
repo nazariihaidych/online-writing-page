@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'uk' }}">
+<head>
+  {% include head.html %}
+</head>
+<body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
+  {% if page.rain %}{% include rain.html %}{% endif %}
+  {% if page.fog %}
+  <div class="fog" aria-hidden="true">
+    <span class="fog__blob fog__blob--1"></span>
+    <span class="fog__blob fog__blob--2"></span>
+    <span class="fog__blob fog__blob--3"></span>
+    <span class="fog__blob fog__blob--4"></span>
+    <span class="fog__blob fog__blob--5"></span>
+  </div>
+  {% endif %}
+  {% include header.html %}
+  <main style="flex: 1;">
+    {{ content }}
+  </main>
+  {% if page.fog or page.rain %}
+  <div class="fx-anchor">{% include effects-toggle.html %}</div>
+  {% endif %}
+  {% include footer.html %}
+</body>
+</html>

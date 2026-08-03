@@ -1,0 +1,11 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+logs/
+.DS_Store
+TODO.md
+.env
+.env.*

@@ -1,0 +1,83 @@
+<button id="effects-toggle" aria-label="Вимкнути ефекти" title="Вимкнути ефекти">
+  <svg class="icon-effects-on" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+    <path d="M12 2l1.8 7.2L21 12l-7.2 1.8L12 22l-1.8-7.2L3 12l7.2-1.8Z"/>
+  </svg>
+  <svg class="icon-effects-off" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+    <path d="M12 2l1.8 7.2L21 12l-7.2 1.8L12 22l-1.8-7.2L3 12l7.2-1.8Z"/>
+    <line x1="4" y1="4" x2="20" y2="20"/>
+  </svg>
+</button>
+
+<style>
+  .fx-anchor {
+    position: sticky;
+    bottom: 0;
+    height: 0;
+    overflow: visible;
+    pointer-events: none;
+  }
+
+  #effects-toggle {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 50;
+    pointer-events: all;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--text);
+    padding: 0;
+    transition: border-color 0.15s, background 0.15s, opacity 0.15s;
+    opacity: 0.5;
+  }
+
+  #effects-toggle:hover {
+    border-color: var(--text);
+    background: var(--yellow);
+    color: #111;
+    opacity: 1;
+  }
+
+  #effects-toggle svg { pointer-events: none; }
+  .icon-effects-off   { display: none; }
+
+  #effects-toggle.is-off .icon-effects-on  { display: none; }
+  #effects-toggle.is-off .icon-effects-off { display: block; }
+  #effects-toggle.is-off { opacity: 0.35; }
+</style>
+
+<script>
+(function () {
+  var btn = document.getElementById('effects-toggle');
+
+  function getTargets() {
+    return [
+      document.querySelector('.fog'),
+      document.getElementById('rain-canvas')
+    ].filter(Boolean);
+  }
+
+  function apply(off) {
+    getTargets().forEach(function (el) {
+      el.style.animation = off ? 'none' : '';
+      el.style.transition = off ? 'opacity 0.6s ease' : '';
+      el.style.opacity = off ? '0' : '';
+    });
+    if (window._rain) { off ? window._rain.pause() : window._rain.resume(); }
+    btn.classList.toggle('is-off', off);
+    btn.setAttribute('aria-label', off ? 'Увімкнути ефекти' : 'Вимкнути ефекти');
+    btn.setAttribute('title',      off ? 'Увімкнути ефекти' : 'Вимкнути ефекти');
+  }
+
+  btn.addEventListener('click', function () {
+    apply(!btn.classList.contains('is-off'));
+  });
+}());
+</script>
