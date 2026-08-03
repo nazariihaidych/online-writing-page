@@ -8,11 +8,11 @@
   {% if items[0].note %}<p class="media-section-note">{{ items[0].note }}</p>{% endif %}
   <div class="media-grid">
     {% for item in items %}
-    <a href="{{ item.url }}" class="media-card" target="_blank" rel="noopener">
+    <a href="{{ item.url | relative_url }}" class="media-card" target="_blank" rel="noopener">
 
       <div class="media-thumb {{ item.aspect | default: 'square' }}">
         {% if item.thumbnail and item.thumbnail != "" %}
-          <img src="{{ item.thumbnail }}" alt="{{ item.title | escape }}" loading="lazy" referrerpolicy="no-referrer">
+          <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.title | escape }}" loading="lazy" referrerpolicy="no-referrer">
         {% else %}
           <div class="media-thumb-empty"></div>
         {% endif %}
