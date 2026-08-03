@@ -12,7 +12,7 @@ title: Напишіть мені щось
 
     <div>
       <a href="mailto:online.writing.page@gmail.com" class="contact-link">
-        <img src="/assets/images/site/email-icon.png" class="btn-icon" alt="">
+        <img src="{{ '/assets/images/site/email-icon.png' | relative_url }}" class="btn-icon" alt="">
         Електронна пошта
       </a>
     </div>

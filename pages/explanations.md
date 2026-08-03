@@ -18,8 +18,9 @@ title: Деякі пояснення
             <span class="toggle-arrow">▶</span>
             {{ section.title }}
           </summary>
+          {% capture assets_prefix %}"{{ site.baseurl }}/assets/{% endcapture %}
           <div class="toggle-content">
-            {{ section.content | markdownify }}
+            {{ section.content | replace: '"/assets/', assets_prefix | markdownify }}
           </div>
         </details>
       </div>
