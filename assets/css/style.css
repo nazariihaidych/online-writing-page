@@ -180,7 +180,7 @@ a:hover {
 /* ─── HERO BANNER ─── */
 
 .hero {
-  background-image: url('/assets/images/site/home-banner.png');
+  background-image: url('/online-writing-page/assets/images/site/home-banner.png');
   background-repeat: no-repeat;
   background-position: center 10%;
   background-size: cover;

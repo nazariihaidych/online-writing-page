@@ -22,7 +22,9 @@ This is a GitHub Pages *project* site, so it's served under a `/online-writing-p
 
 Workaround used in `_data/explanations.yml`: hardcode the baseurl prefix directly, e.g. `/online-writing-page/assets/images/site/mock/mock-1.webp`. This is less portable — if `baseurl` ever changes, this line won't update automatically — but it's the only option for content living in a data file.
 
-**Files touched in this fix:** `pages/about.md`, `pages/contact.md`, `_data/explanations.yml`.
+**Fix — `assets/css/style.css` (`url(...)` references):** static assets under `assets/` have no front matter, so Jekyll copies them byte-for-byte without ever running the Liquid engine over them — `relative_url` simply can't apply here unless front matter is added to the file (untried, since it means Jekyll re-parses the whole stylesheet as a template on every build). Same workaround as the data-file case: hardcode the baseurl prefix, e.g. `url('/online-writing-page/assets/images/site/home-banner.png')`.
+
+**Files touched in this fix:** `pages/about.md`, `pages/contact.md`, `_data/explanations.yml`, `assets/css/style.css`.
 
 **Prevention:** grep for hardcoded absolute paths before shipping new content:
 
