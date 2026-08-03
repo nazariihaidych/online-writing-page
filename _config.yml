@@ -28,6 +28,7 @@ exclude:
   - CLAUDE.md
   - docs/
   - scripts/
+  - assets/images/IMAGES.md
   - Gemfile
   - Gemfile.lock
   - node_modules
