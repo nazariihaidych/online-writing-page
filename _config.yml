@@ -25,6 +25,8 @@ plugins:
   - jekyll-seo-tag
 
 exclude:
+  - CLAUDE.md
   - Gemfile
   - Gemfile.lock
+  - node_modules
   - vendor
