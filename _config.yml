@@ -26,6 +26,8 @@ plugins:
 
 exclude:
   - CLAUDE.md
+  - docs/
+  - scripts/
   - Gemfile
   - Gemfile.lock
   - node_modules
