@@ -701,8 +701,22 @@ details[open] .toggle-arrow {
 
 .yellow-link {
   text-decoration: underline;
-  text-decoration-color: var(--yellow);
+  text-decoration-color: var(--yellow-text);
   text-underline-offset: 3px;
+  opacity: 0.85;
+  transition: opacity 0.15s;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .yellow-link:hover {
+    opacity: 1;
+  }
+}
+
+@media (hover: none) {
+  .yellow-link:active {
+    opacity: 1;
+  }
 }
 
 /* ─── MEDIA CARDS (music, movies, books, etc.) ─── */
