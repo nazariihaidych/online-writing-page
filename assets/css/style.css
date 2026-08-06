@@ -66,6 +66,12 @@ a {
   }
 }
 
+@media (hover: none) {
+  a:active {
+    text-decoration-color: var(--yellow);
+  }
+}
+
 /* ─── SITE HEADER / NAV ─── */
 
 .site-header {
@@ -300,6 +306,13 @@ a {
   }
 }
 
+@media (hover: none) {
+  .section-label:active {
+    border-color: var(--dark);
+    color: var(--text);
+  }
+}
+
 .gallery-heading {
   font-size: 1.3rem;
   font-weight: 700;
@@ -328,6 +341,14 @@ a {
 
 @media (hover: hover) and (pointer: fine) {
   .story-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+  }
+}
+
+@media (hover: none) {
+  .story-card:active {
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
     text-decoration: none;
@@ -376,6 +397,12 @@ a {
   }
 }
 
+@media (hover: none) {
+  .story-back:active {
+    color: var(--text);
+  }
+}
+
 .story-title {
   font-family: var(--font-heading);
   font-size: 2.4rem;
@@ -420,6 +447,14 @@ a {
 
 @media (hover: hover) and (pointer: fine) {
   .story-prop-value a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-underline-offset: 3px;
+  }
+}
+
+@media (hover: none) {
+  .story-prop-value a:active {
     text-decoration: underline;
     text-decoration-color: var(--yellow);
     text-underline-offset: 3px;
@@ -514,6 +549,16 @@ a {
 
 @media (hover: hover) and (pointer: fine) {
   .about-collections-grid li a:hover {
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--yellow);
+    background: none;
+  }
+}
+
+@media (hover: none) {
+  .about-collections-grid li a:active {
     color: var(--muted);
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -703,6 +748,18 @@ details[open] .toggle-arrow {
   }
 }
 
+@media (hover: none) {
+  .media-card:active {
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  }
+
+  .media-card:active .media-thumb img {
+    opacity: 0.85;
+  }
+}
+
 /* thumbnail */
 .media-thumb {
   position: relative;
@@ -876,6 +933,12 @@ mark {
 
 @media (hover: hover) and (pointer: fine) {
   .site-footer a:hover {
+    color: var(--text);
+  }
+}
+
+@media (hover: none) {
+  .site-footer a:active {
     color: var(--text);
   }
 }
