@@ -2,8 +2,8 @@ google_analytics: G-XXXXXXXXXX  # replace with your real Measurement ID
 
 title: Онлайн сторінка письма
 description: Тексти, думки та все що виливається і знаходить свою форму в подобі речень і абзаців.
-baseurl: "/online-writing-page"
-url: "https://nazariihaidych.github.io"
+baseurl: ""
+url: "online-writing-page.com"
 lang: uk
 author: Назарій Гайдич
 email: online.writing.page@gmail.com
