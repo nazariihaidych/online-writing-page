@@ -40,6 +40,16 @@ Soft line break (two spaces at end of line):
 [текст посилання](https://example.com)
 ```
 
+Regular links only get a yellow underline on hover (desktop) or tap (mobile, via `:active`) — see `a:hover` / `a:active` in `assets/css/style.css`.
+
+For a link that should look yellow-underlined all the time (not just on hover/tap), add the `.yellow-link` class with a kramdown IAL right after the link:
+
+```md
+[текст посилання](https://example.com){: .yellow-link}
+```
+
+`.yellow-link` renders dimmed (`opacity: 0.85`) at rest and goes to full opacity on hover or tap — it does not change color like the default hover state does.
+
 ---
 
 ## Blockquote
@@ -66,6 +76,20 @@ Renders with a yellow left border, muted italic text:
 <span style="color: #E6B800">темно-жовтий текст</span>
 <span style="color: var(--yellow)">акцентний жовтий</span>
 <span style="color: var(--muted)">приглушений текст</span>
+```
+
+**Important:** never open a `<span>` in one paragraph and close it after a blank line in the next — kramdown parses each blank-line-separated paragraph as its own block, so the span doesn't carry across the break. The opening tag gets silently dropped and the closing `</span>` renders as literal visible text on the page. Give each paragraph its own self-contained span instead:
+
+```md
+<!-- Wrong — breaks across the blank line -->
+<span class="yellow-text">Перший абзац.
+
+Другий абзац.</span>
+
+<!-- Right — one span per paragraph -->
+<span class="yellow-text">Перший абзац.</span>
+
+<span class="yellow-text">Другий абзац.</span>
 ```
 
 ---
