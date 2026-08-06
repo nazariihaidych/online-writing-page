@@ -19,13 +19,13 @@ sections:
 
   - title: Сповіщення та коментарі
     content: |
-      [**Telegram**<span class="yellow-text">@online_writing_page</span>](https://t.me/online_writing_page)
+      [**Telegram**<span class="yellow-text">@online_writing_page</span>](https://t.me/online_writing_page){: .yellow-link}
 
-      [**Instagram**<span class="yellow-text">@online_writing_page</span>](https://www.instagram.com/online_writing_page?igsh=bDh2MjJhZ3dvM282&utm_source=qr)
+      [**Instagram**<span class="yellow-text">@online_writing_page</span>](https://www.instagram.com/online_writing_page?igsh=bDh2MjJhZ3dvM282&utm_source=qr){: .yellow-link}
 
-      --- 
+      ---
 
-      <span class="yellow-text">За активністю на сторінці можна стежити двома способами: підписатися на [Telegram-канал](https://t.me/online_writing_page) або на [сторінку в Instagram](https://www.instagram.com/online_writing_page?igsh=bDh2MjJhZ3dvM282&utm_source=qr). 
+      <span class="yellow-text">За активністю на сторінці можна стежити двома способами: підписатися на [Telegram-канал](https://t.me/online_writing_page){: .yellow-link} або на [сторінку в Instagram](https://www.instagram.com/online_writing_page?igsh=bDh2MjJhZ3dvM282&utm_source=qr){: .yellow-link}.
 
       Щодо періодичності публікацій, тут точних часових рамок встановити не зможу. Все залежить від вільного часу, якого зараз, на жаль вкрай мало.</span> 
 

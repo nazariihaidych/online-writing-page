@@ -699,6 +699,12 @@ details[open] .toggle-arrow {
 
 .yellow-text { color: var(--yellow-text); }
 
+.yellow-link {
+  text-decoration: underline;
+  text-decoration-color: var(--yellow);
+  text-underline-offset: 3px;
+}
+
 /* ─── MEDIA CARDS (music, movies, books, etc.) ─── */
 
 .media-section-heading {
