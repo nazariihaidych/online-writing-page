@@ -832,6 +832,15 @@ mark {
   }
 }
 
+@media (hover: none) {
+  .contact-link:active {
+    background: var(--yellow);
+    text-decoration: none;
+    border-color: #111111;
+    color: #111111;
+  }
+}
+
 .contact-link .btn-icon {
   width: 18px;
   height: 18px;
