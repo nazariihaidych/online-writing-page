@@ -142,12 +142,8 @@ a {
   transition: transform 0.2s ease;
 }
 
-.hamburger span:nth-child(2) {
-  transition: opacity 0.05s ease 0.15s;
-}
-
 .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-.hamburger.open span:nth-child(2) { opacity: 0; transition: opacity 0.05s ease; }
+.hamburger.open span:nth-child(2) { transform: scaleX(0); }
 .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
 .site-nav a {
