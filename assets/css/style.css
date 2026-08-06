@@ -680,6 +680,7 @@ details[open] .toggle-arrow {
 
 .toggle-content p {
   margin-bottom: 0.75rem;
+  text-align: justify;
 }
 
 .toggle-content ul {
@@ -860,6 +861,10 @@ details[open] .toggle-arrow {
   font-size: 0.95rem;
   margin-bottom: 2rem;
   line-height: 1.8;
+}
+
+.contact-intro p {
+  text-align: justify;
 }
 
 blockquote {
