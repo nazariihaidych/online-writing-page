@@ -190,6 +190,14 @@ a {
   }
 }
 
+@media (hover: none) {
+  .theme-toggle:active {
+    border-color: var(--text);
+    background: var(--yellow);
+    color: #111;
+  }
+}
+
 .theme-toggle svg {
   pointer-events: none;
 }
