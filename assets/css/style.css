@@ -60,8 +60,10 @@ a {
   text-underline-offset: 3px;
 }
 
-a:hover {
-  text-decoration-color: var(--yellow);
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    text-decoration-color: var(--yellow);
+  }
 }
 
 /* ─── SITE HEADER / NAV ─── */
@@ -88,9 +90,11 @@ a:hover {
   transition: color 0.15s ease, font-weight 0.05s ease;
 }
 
-.site-title:hover {
-  color: #E6B800;
-  font-weight: 700;
+@media (hover: hover) and (pointer: fine) {
+  .site-title:hover {
+    color: #E6B800;
+    font-weight: 700;
+  }
 }
 
 .site-header-right {
@@ -139,10 +143,12 @@ a:hover {
   color: var(--text);
 }
 
-.site-nav a:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--yellow);
-  text-underline-offset: 3px;
+@media (hover: hover) and (pointer: fine) {
+  .site-nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-underline-offset: 3px;
+  }
 }
 
 .theme-toggle {
@@ -161,10 +167,12 @@ a:hover {
   transition: border-color 0.15s, background 0.15s;
 }
 
-.theme-toggle:hover {
-  border-color: var(--text);
-  background: var(--yellow);
-  color: #111;
+@media (hover: hover) and (pointer: fine) {
+  .theme-toggle:hover {
+    border-color: var(--text);
+    background: var(--yellow);
+    color: #111;
+  }
 }
 
 .theme-toggle svg {
@@ -262,9 +270,11 @@ a:hover {
   text-decoration: none;
 }
 
-.section-label:hover {
-  border-color: var(--dark);
-  color: var(--text);
+@media (hover: hover) and (pointer: fine) {
+  .section-label:hover {
+    border-color: var(--dark);
+    color: var(--text);
+  }
 }
 
 .gallery-heading {
@@ -293,10 +303,12 @@ a:hover {
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.story-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  text-decoration: none;
+@media (hover: hover) and (pointer: fine) {
+  .story-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    text-decoration: none;
+  }
 }
 
 .story-card-cover {
@@ -335,8 +347,10 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-.story-back:hover {
-  color: var(--text);
+@media (hover: hover) and (pointer: fine) {
+  .story-back:hover {
+    color: var(--text);
+  }
 }
 
 .story-title {
@@ -381,10 +395,12 @@ a:hover {
   text-decoration: none;
 }
 
-.story-prop-value a:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--yellow);
-  text-underline-offset: 3px;
+@media (hover: hover) and (pointer: fine) {
+  .story-prop-value a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-underline-offset: 3px;
+  }
 }
 
 .story-cover-banner {
@@ -473,12 +489,14 @@ a:hover {
   color: var(--text);
 }
 
-.about-collections-grid li a:hover {
-  color: var(--muted);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: var(--yellow);
-  background: none;
+@media (hover: hover) and (pointer: fine) {
+  .about-collections-grid li a:hover {
+    color: var(--muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--yellow);
+    background: none;
+  }
 }
 
 .about-collections-grid li a .icon {
@@ -498,12 +516,14 @@ a:hover {
   color: #111111;
 }
 
-[data-theme="dark"] .story-card:hover,
-[data-theme="dark"] .media-card:hover {
-  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
+@media (hover: hover) and (pointer: fine) {
+  [data-theme="dark"] .story-card:hover,
+  [data-theme="dark"] .media-card:hover {
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
+  }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) and (hover: hover) and (pointer: fine) {
   :root:not([data-theme="light"]) .story-card:hover,
   :root:not([data-theme="light"]) .media-card:hover {
     box-shadow: 0 6px 20px rgba(255, 255, 255, 0.06);
@@ -648,14 +668,16 @@ details[open] .toggle-arrow {
   transition: transform 0.15s, box-shadow 0.15s;
 }
 
-.media-card:hover {
-  text-decoration: none;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
-}
+@media (hover: hover) and (pointer: fine) {
+  .media-card:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
+  }
 
-.media-card:hover .media-thumb img {
-  opacity: 0.85;
+  .media-card:hover .media-thumb img {
+    opacity: 0.85;
+  }
 }
 
 /* thumbnail */
@@ -778,11 +800,13 @@ mark {
   transition: background 0.15s;
 }
 
-.contact-link:hover {
-  background: var(--yellow);
-  text-decoration: none;
-  border-color: #111111;
-  color: #111111;
+@media (hover: hover) and (pointer: fine) {
+  .contact-link:hover {
+    background: var(--yellow);
+    text-decoration: none;
+    border-color: #111111;
+    color: #111111;
+  }
 }
 
 .contact-link .btn-icon {
@@ -818,8 +842,10 @@ mark {
   text-decoration: none;
 }
 
-.site-footer a:hover {
-  color: var(--text);
+@media (hover: hover) and (pointer: fine) {
+  .site-footer a:hover {
+    color: var(--text);
+  }
 }
 
 /* ─── RESPONSIVE ─── */

@@ -38,11 +38,13 @@
     opacity: 0.5;
   }
 
-  #effects-toggle:hover {
-    border-color: var(--text);
-    background: var(--yellow);
-    color: #111;
-    opacity: 1;
+  @media (hover: hover) and (pointer: fine) {
+    #effects-toggle:hover {
+      border-color: var(--text);
+      background: var(--yellow);
+      color: #111;
+      opacity: 1;
+    }
   }
 
   #effects-toggle svg { pointer-events: none; }
