@@ -97,6 +97,13 @@ a {
   }
 }
 
+@media (hover: none) {
+  .site-title:active {
+    color: #E6B800;
+    font-weight: 700;
+  }
+}
+
 .site-header-right {
   display: flex;
   align-items: center;
@@ -145,6 +152,14 @@ a {
 
 @media (hover: hover) and (pointer: fine) {
   .site-nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--yellow);
+    text-underline-offset: 3px;
+  }
+}
+
+@media (hover: none) {
+  .site-nav a:active {
     text-decoration: underline;
     text-decoration-color: var(--yellow);
     text-underline-offset: 3px;
