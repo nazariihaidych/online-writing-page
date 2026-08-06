@@ -549,7 +549,6 @@ a {
 
 @media (hover: hover) and (pointer: fine) {
   .about-collections-grid li a:hover {
-    color: var(--muted);
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-color: var(--yellow);
@@ -559,7 +558,6 @@ a {
 
 @media (hover: none) {
   .about-collections-grid li a:active {
-    color: var(--muted);
     text-decoration: underline;
     text-underline-offset: 3px;
     text-decoration-color: var(--yellow);
