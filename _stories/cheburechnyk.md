@@ -2,7 +2,7 @@
 title: Чебуречник
 date: 2026-02-15
 first_draft: 2021-08-31
-cover_image: /assets/images/stories/cheburechnyk/cover.png
+cover_image: /assets/images/stories/cheburechnyk/cover.webp
 ---
 Надворі був спекотний та безхмарний літній день. Сонце висіло в зеніті, голубе небо, а затінку взагалі, що не було. На будинках гуділи металеві коробки, що на піку своєї популярності та затребуваності, дарували ту чарівну прохолоду. 
 
