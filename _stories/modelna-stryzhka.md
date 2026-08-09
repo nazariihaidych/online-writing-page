@@ -2,7 +2,7 @@
 title: Модельна стрижка
 date: 2026-01-03
 first_draft: 2024-03-05
-cover_image: /assets/images/stories/modelna-stryzhka/cover.png
+cover_image: /assets/images/stories/modelna-stryzhka/cover.webp
 cover_position: "center 18%"
 card_position: "20% 30%"
 ---

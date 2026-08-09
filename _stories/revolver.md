@@ -2,7 +2,7 @@
 title: Револьвер
 date: 2026-01-02
 first_draft: 2023-02-10
-cover_image: /assets/images/stories/revolver/cover.png
+cover_image: /assets/images/stories/revolver/cover.webp
 cover_position: "center 10%"
 card_position: "85% center"
 ---

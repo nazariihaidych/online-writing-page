@@ -2,7 +2,7 @@
 title: Принцеси завойовниці
 date: 2026-01-01
 first_draft: 2023-02-04
-cover_image: /assets/images/stories/pryncesy-zavoyovnytsi/cover.png
+cover_image: /assets/images/stories/pryncesy-zavoyovnytsi/cover.webp
 ---
 
 — Шикуйсь! До бою, Маргарито! Бий їх!
