@@ -1,10 +1,10 @@
 - section: Дивлюсь
-  url: https://www.imdb.com/title/tt0411008/
-  title: "Lost"
-  subtitle: "Adventure, Drama, Fantasy"
-  year: "2004–2010"
-  extra: "6 сезонів"
-  thumbnail: https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_SX600.jpg
+  url: https://www.imdb.com/title/tt1520211/
+  title: "The Walking Dead"
+  subtitle: "Drama, Horror, Thriller"
+  year: "2010–2022"
+  extra: "11 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BYWQwMGRhNGEtZTNhMy00MzVjLWJhMjItYjcwMDljMTkyNTg2XkEyXkFqcGc@._V1_SX600.jpg
   aspect: poster
   platform: imdb
 
@@ -35,6 +35,16 @@
   year: "2026–"
   extra: "1 сезон"
   thumbnail: https://m.media-amazon.com/images/M/MV5BMmM3ZDgwNmItYTc4Mi00MTk4LWEwMWMtNjliZGQ4NTlkZGMzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt0411008/
+  title: "Lost"
+  subtitle: "Adventure, Drama, Fantasy"
+  year: "2004–2010"
+  extra: "6 сезонів"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_SX600.jpg
   aspect: poster
   platform: imdb
 
