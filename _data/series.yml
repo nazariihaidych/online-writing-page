@@ -29,6 +29,16 @@
   platform: imdb
 
 - section: З недавніх | Рекомендую
+  url: https://www.imdb.com/title/tt32767294/
+  title: "Half Man"
+  subtitle: "Drama"
+  year: "2026–"
+  extra: "1 сезон"
+  thumbnail: https://m.media-amazon.com/images/M/MV5BMmM3ZDgwNmItYTc4Mi00MTk4LWEwMWMtNjliZGQ4NTlkZGMzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg
+  aspect: poster
+  platform: imdb
+
+- section: З недавніх | Рекомендую
   url: https://www.imdb.com/title/tt32937780/
   title: "Something Very Bad Is Going to Happen"
   subtitle: "Drama, Horror"
