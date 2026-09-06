@@ -1,0 +1,12 @@
+# Tumbleweed rolling along the bottom of the home page.
+# Edited here (not in _config.yml) so `jekyll serve` picks changes up live.
+enabled: true      # master switch — false hides it everywhere
+months: 3          # show up only once the newest story is this old
+size_min: 100      # px, smallest tumbleweed
+size_max: 190      # px, largest tumbleweed (capped at 34% of screen width)
+speed_min: 8      # sec to cross a desktop-width (1440px) window, fastest
+speed_max: 14      # sec to cross a desktop-width (1440px) window, slowest
+                   # narrower screens scale down to keep the same px/sec
+gap_min: 5        # sec, shortest pause between rolls
+gap_max: 13        # sec, longest pause between rolls
+density: 22        # stem loops per weed — higher is a denser tangle

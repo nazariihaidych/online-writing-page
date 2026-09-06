@@ -3,6 +3,11 @@ layout: default
 body_class: page-home
 ---
 
+{% if site.data.tumbleweed.enabled %}
+  {% assign newest_story = site.stories | sort: 'date' | last %}
+  {% include tumbleweed.html last_story=newest_story.date %}
+{% endif %}
+
 <!-- HERO BANNER -->
 <div class="hero"></div>
 
