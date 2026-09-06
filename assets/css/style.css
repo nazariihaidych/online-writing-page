@@ -1183,22 +1183,23 @@ mark {
 }
 
 /* ── Tumbleweed (home page, when no new stories for a while) ────── */
+/* Now tinted with the site accent --yellow-text (#cb9434).
+   Previous dry-brush browns, kept here in case we want them back:
+     light  --tw-color: rgba(118, 86, 45, 0.78);
+     dark   --tw-color: rgba(200, 170, 118, 0.55);   */
 :root {
-  --tw-opacity: 0.75;
-  --tw-filter: none;
+  --tw-color: color-mix(in srgb, var(--yellow-text) 85%, transparent);
   --tw-shadow: rgba(60, 45, 25, 0.20);
 }
 
 [data-theme="dark"] {
-  --tw-opacity: 0.55;
-  --tw-filter: brightness(1.45) saturate(0.85);
+  --tw-color: color-mix(in srgb, var(--yellow-text) 75%, transparent);
   --tw-shadow: rgba(0, 0, 0, 0.55);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --tw-opacity: 0.55;
-    --tw-filter: brightness(1.45) saturate(0.85);
+    --tw-color: color-mix(in srgb, var(--yellow-text) 75%, transparent);
     --tw-shadow: rgba(0, 0, 0, 0.55);
   }
 }
@@ -1209,7 +1210,8 @@ mark {
   left: 0;
   z-index: 3;
   width: var(--tw-size, 130px);
-  height: calc(var(--tw-size, 130px) * 0.94);   /* artwork is 640x602 */
+  height: var(--tw-size, 130px);
+  color: var(--tw-color);
   pointer-events: none;
   opacity: 0;
   will-change: transform;
@@ -1229,12 +1231,9 @@ mark {
   will-change: transform;
 }
 
-.tumbleweed__spin img {
+.tumbleweed__spin svg {
   display: block;
-  width: 100%;
-  height: 100%;
-  opacity: var(--tw-opacity);
-  filter: var(--tw-filter);
+  overflow: visible;
 }
 
 /* soft patch of ground shade under the weed */
