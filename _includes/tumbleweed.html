@@ -108,12 +108,21 @@
     for (i = 0; i < paths.length; i++) paths[i].setAttribute('d', tiers[i].join(' '));
   }
 
+  /* Speeds are authored against a desktop-width window. Below, both the
+     size and the duration are scaled to the actual viewport, so the weed
+     keeps the same pace in pixels per second and the same share of the
+     screen instead of crawling across a phone. */
+  var REFERENCE_WIDTH = 1440;
+
   function roll() {
     growWeed();
     var ltr    = Math.random() < 0.5;
-    var size   = rnd(num('size-min', 100), num('size-max', 160));
-    var dur    = rnd(num('speed-min', 16), num('speed-max', 26));
-    var travel = window.innerWidth * 1.35;
+    var vw     = window.innerWidth;
+    var travel = vw * 1.35;
+
+    /* Never let it take over a narrow screen. */
+    var size = Math.min(rnd(num('size-min', 100), num('size-max', 160)), vw * 0.34);
+    var dur  = rnd(num('speed-min', 16), num('speed-max', 26)) * (vw / REFERENCE_WIDTH);
 
     /* Spin to match the distance covered, so it rolls instead of sliding.
        0.92 leaves a touch of slip, which reads as loose ground. */
