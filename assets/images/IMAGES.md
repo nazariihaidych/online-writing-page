@@ -23,6 +23,8 @@ assets/images/
 │   ├── home-banner.png    — hero banner (homepage)
 │   ├── email-icon.png     — contact page icon
 │   ├── owp-icon.png       — site favicon / brand icon
+│   ├── tumbleweed.webp    — tumbleweed source art (2048px, not used on the site)
+│   ├── tumbleweed-640.webp — tumbleweed used by the home-page effect (640px)
 │   └── mock/              — UI mockup screenshots
 └── stories/
     └── <story-slug>/

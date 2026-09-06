@@ -1181,3 +1181,149 @@ mark {
 @media (prefers-reduced-motion: reduce) {
   .fog, .fog__blob { animation: none; }
 }
+
+/* ── Tumbleweed (home page, when no new stories for a while) ────── */
+:root {
+  --tw-opacity: 0.75;
+  --tw-filter: none;
+  --tw-shadow: rgba(60, 45, 25, 0.20);
+}
+
+[data-theme="dark"] {
+  --tw-opacity: 0.55;
+  --tw-filter: brightness(1.45) saturate(0.85);
+  --tw-shadow: rgba(0, 0, 0, 0.55);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --tw-opacity: 0.55;
+    --tw-filter: brightness(1.45) saturate(0.85);
+    --tw-shadow: rgba(0, 0, 0, 0.55);
+  }
+}
+
+.tumbleweed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  width: var(--tw-size, 130px);
+  height: calc(var(--tw-size, 130px) * 0.94);   /* artwork is 640x602 */
+  pointer-events: none;
+  opacity: 0;
+  will-change: transform;
+}
+
+.tumbleweed.is-ltr {
+  animation: tumbleRight var(--tw-dur, 20s) linear forwards;
+}
+
+.tumbleweed.is-rtl {
+  animation: tumbleLeft var(--tw-dur, 20s) linear forwards;
+}
+
+.tumbleweed__spin {
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+}
+
+.tumbleweed__spin img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  opacity: var(--tw-opacity);
+  filter: var(--tw-filter);
+}
+
+/* soft patch of ground shade under the weed */
+.tumbleweed__shadow {
+  position: absolute;
+  left: 10%;
+  bottom: 2%;
+  width: 80%;
+  height: 9%;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at 50% 50%, var(--tw-shadow) 0%, transparent 72%);
+  opacity: 0;
+}
+
+.tumbleweed.is-ltr .tumbleweed__spin,
+.tumbleweed.is-rtl .tumbleweed__spin {
+  animation:
+    tumbleSpin var(--tw-dur, 20s) linear forwards,
+    tumbleHop  var(--tw-hop, 2s) linear infinite;
+}
+
+.tumbleweed.is-ltr .tumbleweed__shadow,
+.tumbleweed.is-rtl .tumbleweed__shadow {
+  animation: tumbleShade var(--tw-hop, 2s) linear infinite;
+}
+
+.tumbleweed.is-paused,
+.tumbleweed.is-paused .tumbleweed__spin,
+.tumbleweed.is-paused .tumbleweed__shadow {
+  animation-play-state: paused;
+}
+
+@keyframes tumbleRight {
+  0%   { opacity: 0; transform: translateX(-25vw); }
+  6%   { opacity: 1; }
+  94%  { opacity: 1; }
+  100% { opacity: 0; transform: translateX(110vw); }
+}
+
+@keyframes tumbleLeft {
+  0%   { opacity: 0; transform: translateX(110vw); }
+  6%   { opacity: 1; }
+  94%  { opacity: 1; }
+  100% { opacity: 0; transform: translateX(-25vw); }
+}
+
+@keyframes tumbleSpin {
+  to { transform: rotate(var(--tw-spin, 900deg)); }
+}
+
+/* Bounce. Ballistic, not sinusoidal: it leaves the ground fast and slows into
+   the apex, then accelerates back down — the two curves below are easeOutQuad
+   and easeInQuad, which is what constant gravity looks like. One cycle is two
+   hops — a big one and a smaller skip — so it never reads as a metronome. */
+@keyframes tumbleHop {
+  0% {
+    translate: 0 0;
+    scale: 1.04 0.95;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  26% {
+    translate: 0 var(--tw-lift, -13%);
+    scale: 0.98 1.02;
+    animation-timing-function: cubic-bezier(0.55, 0.09, 0.68, 0.53);
+  }
+  50% {
+    translate: 0 0;
+    scale: 1.04 0.95;
+    animation-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+  70% {
+    translate: 0 calc(var(--tw-lift, -13%) * 0.42);
+    scale: 0.99 1.01;
+    animation-timing-function: cubic-bezier(0.55, 0.09, 0.68, 0.53);
+  }
+  92%, 100% {
+    translate: 0 0;
+    scale: 1.03 0.96;
+  }
+}
+
+@keyframes tumbleShade {
+  0%       { transform: scaleX(1);    opacity: 1; }
+  26%      { transform: scaleX(0.60); opacity: 0.28; }
+  50%      { transform: scaleX(1);    opacity: 1; }
+  70%      { transform: scaleX(0.82); opacity: 0.62; }
+  92%,100% { transform: scaleX(1);    opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tumbleweed { display: none; }
+}

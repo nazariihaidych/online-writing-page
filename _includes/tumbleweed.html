@@ -1,0 +1,85 @@
+{%- assign tw = site.data.tumbleweed -%}
+<div class="tumbleweed" aria-hidden="true"
+     data-last-story="{{ include.last_story | date: '%s' }}"
+     data-months="{{ tw.months | default: 3 }}"
+     data-size-min="{{ tw.size_min | default: 100 }}"
+     data-size-max="{{ tw.size_max | default: 160 }}"
+     data-speed-min="{{ tw.speed_min | default: 16 }}"
+     data-speed-max="{{ tw.speed_max | default: 26 }}"
+     data-gap-min="{{ tw.gap_min | default: 15 }}"
+     data-gap-max="{{ tw.gap_max | default: 45 }}">
+  <div class="tumbleweed__spin">
+    <img src="{{ '/assets/images/site/tumbleweed-640.webp' | relative_url }}" alt="" width="640" height="602" loading="lazy" decoding="async">
+  </div>
+  <span class="tumbleweed__shadow"></span>
+</div>
+
+<script>
+(function () {
+  var el = document.querySelector('.tumbleweed');
+  if (!el) return;
+
+  /* Add #tumbleweed to the URL to preview it right away while tuning. */
+  var preview = location.hash === '#tumbleweed';
+
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    el.remove();
+    return;
+  }
+
+  function num(name, fallback) {
+    var v = parseFloat(el.getAttribute('data-' + name));
+    return isNaN(v) ? fallback : v;
+  }
+
+  /* Only roll out when the newest story is older than N months. */
+  if (!preview) {
+    var last   = parseInt(el.getAttribute('data-last-story'), 10);
+    var cutoff = new Date();
+    cutoff.setMonth(cutoff.getMonth() - num('months', 3));
+    if (!last || last * 1000 > cutoff.getTime()) {
+      el.remove();
+      return;
+    }
+  }
+
+  function rnd(min, max) { return Math.random() * (max - min) + min; }
+
+  function roll() {
+    var ltr    = Math.random() < 0.5;
+    var size   = rnd(num('size-min', 100), num('size-max', 160));
+    var dur    = rnd(num('speed-min', 16), num('speed-max', 26));
+    var travel = window.innerWidth * 1.35;
+
+    /* Spin to match the distance covered, so it rolls instead of sliding.
+       0.92 leaves a touch of slip, which reads as loose ground. */
+    var turns = travel / (Math.PI * size) * 0.92;
+
+    el.style.setProperty('--tw-size', size.toFixed(0) + 'px');
+    el.style.setProperty('--tw-dur',  dur.toFixed(1) + 's');
+    el.style.setProperty('--tw-spin', ((ltr ? 1 : -1) * turns * 360).toFixed(0) + 'deg');
+    /* One cycle = two hops, covering ~2.2 of its own width, so the bounce
+       rhythm keeps pace with however fast it is crossing. */
+    el.style.setProperty('--tw-hop',  (dur * (size * 2.2) / travel).toFixed(2) + 's');
+    /* How high it gets off the ground, as a share of its own height. */
+    el.style.setProperty('--tw-lift', '-' + rnd(9, 16).toFixed(1) + '%');
+    el.classList.add(ltr ? 'is-ltr' : 'is-rtl');
+  }
+
+  function stop() {
+    el.classList.remove('is-ltr', 'is-rtl');
+    setTimeout(roll, rnd(num('gap-min', 15), num('gap-max', 45)) * 1000);
+  }
+
+  el.addEventListener('animationend', function (e) {
+    if (e.animationName === 'tumbleRight' || e.animationName === 'tumbleLeft') stop();
+  });
+
+  document.addEventListener('visibilitychange', function () {
+    el.classList.toggle('is-paused', document.hidden);
+  });
+
+  if (preview) { roll(); }
+  else { setTimeout(roll, rnd(3000, 9000)); }
+}());
+</script>

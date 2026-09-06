@@ -133,7 +133,9 @@ Pages and stories can opt into animated visual effects via front matter:
 - `rain: true` — renders a canvas rain animation (`_includes/rain.html`); clips itself below the story cover banner on story pages
 - `fog: true` — renders animated fog blobs (`.fog__blob` elements, styled in CSS)
 
-Both effects together show a floating `#effects-toggle` button (sticky bottom-right, `_includes/effects-toggle.html`) that lets the user pause/resume. The toggle is wired up in `_layouts/default.html`:
+**Tumbleweed** (`_includes/tumbleweed.html`) is separate: it is included by `index.html` only, rolls along the bottom of the viewport, and appears only once the newest story is older than `months`. Its settings live in `_data/tumbleweed.yml` (`enabled`, `months`, `size_min/max`, `speed_min/max`, `gap_min/max`) — a data file rather than `_config.yml`, because Jekyll hot-reloads `_data/` but never reloads `_config.yml` without restarting the server. Add `#tumbleweed` to the URL to skip the date gate and roll immediately while tuning. Direction, size, speed and gap are randomised per roll; spin is derived from distance travelled so it rolls rather than slides. The artwork is `assets/images/site/tumbleweed-640.webp` (640px, downscaled from the 2048px `tumbleweed.webp` source — 640 keeps it sharp up to ~320 CSS px on a 2x screen); its opacity and dark-mode filter are the `--tw-opacity` / `--tw-filter` tokens in CSS.
+
+Both fog and rain together show a floating `#effects-toggle` button (sticky bottom-right, `_includes/effects-toggle.html`) that lets the user pause/resume. The toggle is wired up in `_layouts/default.html`:
 
 ```html
 {% if page.rain %}{% include rain.html %}{% endif %}
