@@ -8,3 +8,4 @@ speed_min: 8      # sec, fastest crossing of the screen
 speed_max: 14      # sec, slowest crossing of the screen
 gap_min: 2        # sec, shortest pause between rolls
 gap_max: 7        # sec, longest pause between rolls
+density: 22        # stem loops per weed — higher is a denser tangle
