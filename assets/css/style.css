@@ -478,7 +478,7 @@ a {
   text-indent: 2em;
 }
 
-/* Діалоги: відступ на початку кожної репліки, без проміжку між ними */
+/* Dialogue: indent at the start of every line, no gap between them */
 .story-body p.dline {
   margin-bottom: 0;
 }
