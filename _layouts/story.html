@@ -58,9 +58,26 @@ layout: default
   </div>
 </div>
 
+{%- comment -%}
+  Діалоги: кожен рядок, що починається з тире («— »), стає окремим абзацом
+  .dline — щоб відступ був на початку кожної репліки, а не лише першої.
+{%- endcomment -%}
+{%- assign nl = '
+' -%}
+{%- assign dline_open = '<p class="dline">— ' -%}
+{%- assign dline_split = '</p>' | append: dline_open -%}
+{%- assign after_br = '<br />' | append: nl | append: '— ' -%}
+{%- assign after_space = ' ' | append: nl | append: '— ' -%}
+{%- assign after_nl = nl | append: '— ' -%}
+{%- assign story_body = content
+      | replace: after_br, dline_split
+      | replace: after_space, dline_split
+      | replace: after_nl, dline_split
+      | replace: '<p>— ', dline_open -%}
+
 <div class="container">
   <article class="story-body">
-    {{ content }}
+    {{ story_body }}
   </article>
 
   <div style="padding: 3rem 0 1rem;">

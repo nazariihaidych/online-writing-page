@@ -22,7 +22,7 @@ This is a **Jekyll 4.4** static site in Ukrainian, authored by Назарій Г
 ### Layouts
 
 - `_layouts/default.html` — base shell (head + header + footer wrapping `{{ content }}`); accepts `body_class` front matter to inject a class on `<body>`
-- `_layouts/story.html` — extends `default`; renders a single story with cover image or color, back-link, and the article body
+- `_layouts/story.html` — extends `default`; renders a single story with cover image or color, back-link, and the article body. Before output it post-processes `content`: any line starting with `— ` becomes its own `<p class="dline">`, so every dialogue replica gets the paragraph `text-indent` (see *Dialogue* below)
 
 ### Collections
 
@@ -52,6 +52,20 @@ fog: true    # optional: animated fog blobs
 ```
 
 Stories are sorted by `date` descending on the homepage.
+
+### Dialogue
+
+Write one replica per line, each starting with an em dash — no blank lines, no trailing spaces:
+
+```markdown
+— Я піду подивлюся.
+— Ні-ні. Стоп-стоп.
+```
+
+The story layout splits those lines into separate `<p class="dline">` paragraphs, so each replica gets the
+`text-indent: 2em` of `.story-body p`; `.story-body p.dline` zeroes `margin-bottom` between consecutive
+replicas and `.story-body p.dline + p:not(.dline)` restores the 1.2rem gap before the next narrative
+paragraph. An em dash in the middle of a line is untouched.
 
 ### Theming
 

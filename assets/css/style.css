@@ -478,6 +478,15 @@ a {
   text-indent: 2em;
 }
 
+/* Діалоги: відступ на початку кожної репліки, без проміжку між ними */
+.story-body p.dline {
+  margin-bottom: 0;
+}
+
+.story-body p.dline + p:not(.dline) {
+  margin-top: 1.2rem;
+}
+
 .story-body hr {
   border: none;
   border-top: 1px solid var(--border);
