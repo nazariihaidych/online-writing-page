@@ -34,6 +34,35 @@ Soft line break (two spaces at end of line):
 
 ---
 
+## Dialogue
+
+In stories, every line that starts with an em dash (`— `) at the beginning of a
+line is turned into its own paragraph automatically (`_layouts/story.html`).
+Each replica gets the same `text-indent: 2em` as a normal paragraph, and there
+is no extra vertical gap between replicas.
+
+Just write one replica per line — no blank lines, no trailing spaces needed:
+
+```md
+— Я піду подивлюся.
+— Ні-ні. Стоп-стоп.
+— Яка поліція, Орбі?
+```
+
+Renders as:
+
+```
+    — Я піду подивлюся.
+    — Ні-ні. Стоп-стоп.
+    — Яка поліція, Орбі?
+```
+
+An em dash *inside* a line (`— сказав він`) is left alone — only a dash at the
+start of a line begins a new replica. The gap returns after the last replica of
+the block, before the next narrative paragraph.
+
+---
+
 ## Links
 
 ```md

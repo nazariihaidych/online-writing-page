@@ -58,9 +58,26 @@ layout: default
   </div>
 </div>
 
+{%- comment -%}
+  Dialogue: every line starting with an em dash ("— ") becomes its own
+  .dline paragraph, so each line gets the indent — not just the first one.
+{%- endcomment -%}
+{%- assign nl = '
+' -%}
+{%- assign dline_open = '<p class="dline">— ' -%}
+{%- assign dline_split = '</p>' | append: dline_open -%}
+{%- assign after_br = '<br />' | append: nl | append: '— ' -%}
+{%- assign after_space = ' ' | append: nl | append: '— ' -%}
+{%- assign after_nl = nl | append: '— ' -%}
+{%- assign story_body = content
+      | replace: after_br, dline_split
+      | replace: after_space, dline_split
+      | replace: after_nl, dline_split
+      | replace: '<p>— ', dline_open -%}
+
 <div class="container">
   <article class="story-body">
-    {{ content }}
+    {{ story_body }}
   </article>
 
   <div style="padding: 3rem 0 1rem;">

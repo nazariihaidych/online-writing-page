@@ -478,6 +478,15 @@ a {
   text-indent: 2em;
 }
 
+/* Dialogue: indent at the start of every line, no gap between them */
+.story-body p.dline {
+  margin-bottom: 0;
+}
+
+.story-body p.dline + p:not(.dline) {
+  margin-top: 1.2rem;
+}
+
 .story-body hr {
   border: none;
   border-top: 1px solid var(--border);
